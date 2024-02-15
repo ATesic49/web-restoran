@@ -4,7 +4,7 @@ import portfolio2 from '@/public/imgs/portfolio2.png'
 import Image from 'next/image'
 function Portfolio() {
     return (
-        <div className='flex justify-center gap-8 items-start py-16 px-8 md:px-16 flex-col'>
+        <div className='flex justify-center gap-8 items-start p-8 md:p-16 flex-col'>
 
             <h2 className='md:text-6xl text-3xl text-gray-950 font-bold '>
                 Prortfolio
@@ -80,7 +80,7 @@ function Portfolio() {
                 </div> */}
 
             </div>
-            <button className='px-4 py-2 rounded-lg bg-gradient-to-t shadow-sm shadow-blue-600 from-blue-500 to-blue-400 mt-8 mx-auto text-lg text-gray-50'>Više o nama</button>
+            <button className='px-4 py-2 rounded-lg bg-gradient-to-t shadow-sm shadow-blue-600 from-blue-500 to-blue-400 md:mt-8 mx-auto text-lg text-gray-50 '>Više o nama</button>
 
         </div>
     )

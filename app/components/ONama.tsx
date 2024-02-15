@@ -5,7 +5,7 @@ import image from '@/public/imgs/unnamed.jpg'
 import { on } from 'events'
 function ONama() {
     return (
-        <div className='flex justify-center gap-8 items-start py-16 px-8 md:px-16 flex-col'>
+        <div className='flex justify-center gap-8 items-start p-8  md:p-16 flex-col'>
 
             <h2 className='text-3xl md:text-6xl text-gray-800 font-bold '>
                 O nama
