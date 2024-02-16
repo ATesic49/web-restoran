@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import image from '@/public/imgs/Portfolio.png'
+import Link from 'next/link'
 function Usluge() {
     return (
         <div
@@ -20,17 +21,63 @@ function Usluge() {
 
             </div>
 
-            <div className='flex jstify-center ites-center gap-8'>
+            <div className='grid grid-flow-col md:grid-flow-row md:grid-cols-3 overflow-y-visible overflow-x-auto ites-center gap-8 py-2'>
 
-                <div className='flex gap-4 py-4 px-4 rounded-lg flex-col border  items-center justify-center'>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500 rotiranje" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M12.004 2c4.942 0 8.288 2.503 8.85 6.444a12.884 12.884 0 0 1 -2.163 9.308a11.794 11.794 0 0 1 -3.51 3.356c-1.982 1.19 -4.376 1.19 -6.373 -.008a11.763 11.763 0 0 1 -3.489 -3.34a12.808 12.808 0 0 1 -2.171 -9.306c.564 -3.95 3.91 -6.454 8.856 -6.454zm1.913 14.6a1 1 0 0 0 -1.317 -.517l-.146 .055a1.5 1.5 0 0 1 -1.054 -.055l-.11 -.04a1 1 0 0 0 -.69 1.874a3.5 3.5 0 0 0 2.8 0a1 1 0 0 0 .517 -1.317zm-5.304 -6.39a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -1.497l-2 -2zm8.094 .083a1 1 0 0 0 -1.414 0l-2 2l-.083 .094a1 1 0 0 0 1.497 1.32l2 -2l.083 -.094a1 1 0 0 0 -.083 -1.32z" stroke-width="0" className='fill-blue-500' />
+                        <path d="M6.5 7h11" />
+                        <path d="M6.5 17h11" />
+                        <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z" />
+                        <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z" />
                     </svg>
-                    <h3 className='text-sm '>Responzivni Dizajn</h3>
-                </div>
+                    <h3 className='text-sm  text-gray-800 text-center max-w-[10em] '>Besplatan sastanak</h3>
+                </Link>
+
+                <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M11.5 21h-3.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v9.5" />
+                        <path d="M11 4h2" />
+                        <path d="M12 17v.01" />
+                        <path d="M15 19l2 2l4 -4" />
+                    </svg>
+                    <h3 className='text-sm  text-gray-800 text-center '>Responzivni Dizajn</h3>
+                </Link>
+                <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 7h3" />
+                        <path d="M3 11h2" />
+                        <path d="M9.02 8.801l-.6 6a2 2 0 0 0 1.99 2.199h7.98a2 2 0 0 0 1.99 -1.801l.6 -6a2 2 0 0 0 -1.99 -2.199h-7.98a2 2 0 0 0 -1.99 1.801z" />
+                        <path d="M9.8 7.5l2.982 3.28a3 3 0 0 0 4.238 .202l3.28 -2.982" />
+                    </svg>
+                    <h3 className='text-sm  text-gray-800 text-center '>Brzo Učitavanje Stranica</h3>
+                </Link>
+                <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
 
 
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+                        <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+                        <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+                        <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+                    </svg>
+                    <h3 className='text-sm  text-gray-800 text-center min-w-[5em] '>Dizajn Koji Se Ističe</h3>
+                </Link>
+                <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 17l6 -6l4 4l8 -8" />
+                        <path d="M14 7l7 0l0 7" />
+                    </svg>
+                    <h3 className='text-sm  text-gray-800 text-center min-w-[5em] '>Zagarantovan Uspeh</h3>
+                </Link>
+                <Link href={'/usluge'} className='text-center flex justify-center items-center text-sm'>Pogledaj Više...</Link>
             </div>
 
         </div>
