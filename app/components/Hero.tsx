@@ -6,7 +6,7 @@ import bgbg from '@/public/imgs/bggb.jpeg'
 import { ImageResponse } from 'next/server'
 function Hero() {
   return (
-    <div className='flex bg-gray-100 flex-col md:flex-row gap-8  md:min-h-[100vh] justify-between items-center p-8 pt-16 md:p-16 relative'>
+    <div className='heroj flex bg-gray-100 flex-col md:flex-row gap-8  md:min-h-[100vh] justify-between items-center p-8 pt-16 md:p-16 relative'>
 
       <div className='flex flex-col justify-center  items-start gap-4 '>
         <h1 className='text-gray-950 text-3xl md:text-6xl   md:max-w-[8em] font-bold '>Podigni svoj Restoran na viši nivo.</h1>
