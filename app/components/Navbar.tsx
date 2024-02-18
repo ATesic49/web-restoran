@@ -29,9 +29,10 @@ function Navbar() {
 
 
             </nav>
-            <div className='relative md:hidden '>
-                <button className='items-center justify-center px-4 py-2 bg-gradient-to-t from-blue-500 to-blue-300 rounded  flex gap-4 '
-                    onClick={() => setIsOpen(!isOpen)}
+            <div className='relative md:hidden '
+                onClick={() => setIsOpen(!isOpen)}>
+                <button className='shadow-blue-700 items-center justify-center px-4 py-2 bg-gradient-to-t from-blue-500 to-blue-300 rounded  flex gap-4 '
+
                 >
 
                     <p className='text-base text-gray-100 font-bold  '>Menu</p>
@@ -52,8 +53,9 @@ function Navbar() {
                     <Link href="/o-nama" className='text-gray-800 hover:underline underline-offset-8'>O nama</Link>
                     <Link href="/o-nama" className=' hover:underline underline-offset-8'>Portfolio</Link>
                     <Link href="/o-nama" className=' hover:underline underline-offset-8'>Kontakt</Link>
-                    <Link href={'/'} className='bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded-lg to-blue-400 flex justify-center items-center gap-2  text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-700  '>
-                        <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-gray-100' viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <Link href={'/'} className='-ml-1 bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded font-semibold to-blue-300 flex justify-center items-center   text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-700  '>
+                        <p className='text-[10px]'>Zakaži sastanak</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" className='w-10 stroke-gray-100' viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                             <path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z" />
                             <path d="M10 16h6" />
@@ -68,7 +70,7 @@ function Navbar() {
 
                 </motion.div>
             </div>
-        </div>
+        </div >
     )
 }
 
