@@ -24,7 +24,7 @@ function Usluge() {
             <div className='grid grid-flow-col md:grid-flow-row md:grid-cols-3 overflow-y-visible overflow-x-auto ites-center gap-8 py-2'>
 
                 <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500 rotiranje" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500 rotiranje" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
 
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M6.5 7h11" />
@@ -36,7 +36,7 @@ function Usluge() {
                 </Link>
 
                 <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M11.5 21h-3.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v9.5" />
                         <path d="M11 4h2" />
@@ -46,7 +46,7 @@ function Usluge() {
                     <h3 className='text-sm  text-gray-800 text-center '>Responzivni Dizajn</h3>
                 </Link>
                 <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
 
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M3 7h3" />
@@ -57,7 +57,7 @@ function Usluge() {
                     <h3 className='text-sm  text-gray-800 text-center '>Brzo Učitavanje Stranica</h3>
                 </Link>
                 <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
 
 
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -69,7 +69,7 @@ function Usluge() {
                     <h3 className='text-sm  text-gray-800 text-center min-w-[5em] '>Dizajn Koji Se Ističe</h3>
                 </Link>
                 <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
 
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M3 17l6 -6l4 4l8 -8" />

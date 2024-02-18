@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import oNama from '@/public/imgs/heroBg.jpeg'
 import image from '@/public/imgs/unnamed.jpg'
-import { on } from 'events'
 function ONama() {
     return (
         <div className='flex justify-center gap-8 items-start p-8  md:p-16 flex-col'>
