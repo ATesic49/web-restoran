@@ -55,15 +55,14 @@ function Portfolio() {
                     <div className='md:w-32 flex-col gap-2 aspect-square flex items-center justify-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" className='w-8  stroke-green-500' width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M11.5 21h-3.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v9.5" />
-                            <path d="M11 4h2" />
-                            <path d="M12 17v.01" />
-                            <path d="M15 19l2 2l4 -4" />
+                            <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+                            <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+                            <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                         </svg>
-                        <p className='text-xs text-center text-gray-400'>Responzivno za mobilne telefone</p>
+                        <p className='text-xs text-center text-gray-400'>Brzo učitavanje stranica</p>
                     </div>
                     <div className=' md:w-32 flex-col gap-2 aspect-square flex items-center justify-center'>
-                        <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-green-500' width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-blue-500' width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                             <path d="M11.5 21h-3.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v9.5" />
                             <path d="M11 4h2" />

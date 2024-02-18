@@ -21,7 +21,7 @@ function Usluge() {
 
             </div>
 
-            <div className='grid grid-flow-col md:grid-flow-row md:grid-cols-3 overflow-y-visible overflow-x-auto ites-center gap-8 py-2'>
+            <div className='grid grid-flow-col md:grid-flow-row md:grid-cols-3 overflow-y-visible overflow-x-auto ites-center gap-8 py-4'>
 
                 <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-100 hover:bg-gray-200 shadow-blue-200 '>
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500 rotiranje" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
