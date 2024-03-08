@@ -43,14 +43,14 @@ function page() {
             <div className='flex flex-col gap-8 md:gap-16 md:p-8 justify-center items-center'>
                 <h2 className='text-4xl text-gray-800 font-bold'>Naša Priča</h2>
                 <div className=' w-full   grid md:grid-cols-2 gap-8'>
-                    <p className='w-full md:text-lg text-sm text-gray-600 '>Kada sam, krajem 2021.počeo da pravim websajtove, samo sam gledao na to kao na pripremu za fakultet.
-                        Posle nekog vremena, zavoleo sam to što radim,i odlučio da se posvetim tome.
+                    <p className='w-full md:text-lg text-sm text-gray-600 '>Kada sam, krajem 2021.   počeo da pravim websajtove, samo sam gledao na to kao na pripremu za fakultet.
+                        Posle nekog vremena, zavoleo sam proces, i odlučio da se posvetim tome.
                         <span className='h-2 block' />
                         Naravno, sajtovi koje sam na početku pravio bili su žestoka kurčina, ali sam nastavio da se trudim i sada sam tu gde jesam.
                         <span className='h-2 block' />
                         Kako sam učio više i više, shvatio sam da programiranje samo po sebi nije dovoljno, i da treba da se posvetim i dizajniranju, i zaista, posle prve 2 knjige o dizajnu koje sam pročitao, moji sajtovi postali su 10 puta bolji nego pre.
                     </p>
-                    <Image alt='' src={s} className=' w-full aspect-square md:aspect-auto bg-red-200'></Image>
+                    <Image alt='' src={s} className=' w-full aspect-square md:aspect-auto bg-red-200 object-cover object-center'></Image>
                 </div>
             </div>
         </div >

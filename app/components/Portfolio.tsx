@@ -10,7 +10,7 @@ function Portfolio() {
                 Prortfolio
             </h2>
             <div className='flex items-center justify-between w-full'>
-                <p className='text-gray-500 text-sm md:text-lg max-w-[600px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci fugiat ipsum sequi sapiente iste repellat inventore numquam.</p>
+                <p className='text-gray-500 text-sm md:text-lg max-w-[600px]'>Ovo ispred vas je jedan od naših prethodnih projekata koji služi da vam pokaže kako bi Vaš sajt mogao da izgleda u koliko odaberete saradnju sa nama :)</p>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-3 items-center justify-center md:mt-8  '>
                 <div className=' md:w-32 flex aspect-square gap-2 md:gap-8 md:flex-col mx-auto row-start-2 md:row-start-auto    justify-between items-center'>
@@ -62,14 +62,12 @@ function Portfolio() {
                         <p className='text-xs text-center text-gray-400'>Brzo učitavanje stranica</p>
                     </div>
                     <div className=' md:w-32 flex-col gap-2 aspect-square flex items-center justify-center'>
-                        <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-blue-500' width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-green-500' width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
+
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M11.5 21h-3.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v9.5" />
-                            <path d="M11 4h2" />
-                            <path d="M12 17v.01" />
-                            <path d="M15 19l2 2l4 -4" />
-                        </svg>
-                        <p className='text-xs text-center text-gray-400'>Responzivno za mobilne telefone</p>
+                            <path d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3" />
+                            \                        </svg>
+                        <p className='text-xs text-center text-gray-400'>Pozitivno iskstvo posetioca</p>
                     </div>
                 </div>
 

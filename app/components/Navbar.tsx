@@ -13,7 +13,7 @@ function Navbar() {
             </Link>
             <nav className='hidden md:flex text-gray-500 font-semibold text-lg justify-center items-center gap-8 '>
                 <Link href="/o-nama" className='text-gray-800 hover:underline underline-offset-8'>O nama</Link>
-                <Link href="/o-nama" className=' hover:underline underline-offset-8'>Portfolio</Link>
+                <Link href="/usluge" className=' hover:underline underline-offset-8'>Usluge</Link>
                 <Link href="/o-nama" className=' hover:underline underline-offset-8'>Kontakt</Link>
                 <Link href={'/'} className='bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded-lg to-blue-400 flex justify-center items-center gap-2  text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-700  ml-8'>
                     <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-gray-100' viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -36,7 +36,7 @@ function Navbar() {
                 >
 
                     <p className='text-base text-gray-100 font-bold  '>Menu</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-gray-100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-gray-100" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M4 6l16 0" />
                         <path d="M4 12l16 0" />
@@ -51,7 +51,7 @@ function Navbar() {
 
                 >
                     <Link href="/o-nama" className='text-gray-800 hover:underline underline-offset-8'>O nama</Link>
-                    <Link href="/o-nama" className=' hover:underline underline-offset-8'>Portfolio</Link>
+                    <Link href="/usluge" className=' hover:underline underline-offset-8'>Usluge</Link>
                     <Link href="/o-nama" className=' hover:underline underline-offset-8'>Kontakt</Link>
                     <Link href={'/'} className='-ml-1 bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded font-semibold to-blue-300 flex justify-center items-center   text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-700  '>
                         <p className='text-[10px]'>Zakaži sastanak</p>
