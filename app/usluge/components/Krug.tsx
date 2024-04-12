@@ -5,11 +5,7 @@ import { Reem_Kufi_Fun } from 'next/font/google'
 
 function Krug() {
     const ref = useRef(null)
-    useEffect(() => {
-        if (ref.current === null) return
-        console.log('ref', ref.current as React.ElementRef<typeof motion.div>)
-        console.log('ref', ref.current.getBoundingClientRect())
-    }, [])
+
     return (
         <motion.div
             ref={ref}

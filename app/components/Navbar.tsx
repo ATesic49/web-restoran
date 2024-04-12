@@ -4,17 +4,25 @@ import React, { useState } from 'react'
 import logo from '@/public/imgs/hero.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { usePathname } from 'next/navigation'
+import path from 'path'
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
+    const pathname = usePathname()
+
     return (
         <div className=' flex justify-between fixed z-50 bg-gray-50  bg-opacity-90 md:bg-opacity-50 md:backdrop-blur-sm top-0 w-full left-0 items-center px-4 md:px-8 py-4'>
             <Link href='/' className='bg-gradient-to-t from-blue-700 to-blue-300 italic font-bold bg-clip-text text-transparent p-1'>WebRestoran
 
             </Link>
             <nav className='hidden md:flex text-gray-500 font-semibold text-lg justify-center items-center gap-8 '>
-                <Link href="/o-nama" className='text-gray-800 hover:underline underline-offset-8'>O nama</Link>
-                <Link href="/usluge" className=' hover:underline underline-offset-8'>Usluge</Link>
-                <Link href="/o-nama" className=' hover:underline underline-offset-8'>Kontakt</Link>
+                <Link href="/o-nama" className={`${pathname === '/o-nama' && 'text-gray-800'}  hover:text-gray-800 hover:underline underline-offset-8 duration-200`}>O nama</Link>
+                <Link href="/usluge" className={` hover:underline underline-offset-8 
+                ${pathname === '/usluge' && 'text-gray-800'} duration-200  hover:text-gray-800
+                `}>Usluge</Link>
+                <Link href="/kontakt" className={` hover:underline 
+                ${pathname === '/kontakt' && 'text-gray-800'} hover:text-gray-800 duration-200
+                underline-offset-8`}>Kontakt</Link>
                 <Link href={'/'} className='bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded-lg to-blue-400 flex justify-center items-center gap-2  text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-700  ml-8'>
                     <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-gray-100' viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />

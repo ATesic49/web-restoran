@@ -3,12 +3,12 @@ import Heroa from '@/public/svgs/hero.svg'
 import Image from 'next/image'
 import Brojevi from './components/Brojevi'
 import Reordera from './components/Reordera'
-import s from '@/public/imgs/Portfolio.png'
+import s from '@/public/imgs/japanac.jpg'
 
 function page() {
 
     return (
-        <div className='md:p-m-16 m-8 flex flex-col gap-16'>
+        <div className='m-8 flex flex-col gap-16'>
             <div className='absolute top-0 left-1/2 -translate-y-1/2 -z-10 -translate-x-1/2 w-2/3 bg-blue-300 opacity-20 rounded-full aspect-square'></div>
             <h1 className='mt-16 text-center max-w-[10em] mx-auto md:text-6xl text-3xl font-bold text-gray-900'>Sve što treba da znate o nama</h1>
             <Image src={Heroa} className='w-9/12 md:w-3/12  -my-16 mx-auto' alt='' />
@@ -42,7 +42,7 @@ function page() {
             </div>
             <div className='flex flex-col gap-8 md:gap-16 md:p-8 justify-center items-center'>
                 <h2 className='text-4xl text-gray-800 font-bold'>Naša Priča</h2>
-                <div className=' w-full   grid md:grid-cols-2 gap-8'>
+                <div className=' w-full grid md:grid-cols-2 gap-8'>
                     <p className='w-full md:text-lg text-sm text-gray-600 '>Kada sam, krajem 2021.   počeo da pravim websajtove, samo sam gledao na to kao na pripremu za fakultet.
                         Posle nekog vremena, zavoleo sam proces, i odlučio da se posvetim tome.
                         <span className='h-2 block' />
@@ -50,7 +50,7 @@ function page() {
                         <span className='h-2 block' />
                         Kako sam učio više i više, shvatio sam da programiranje samo po sebi nije dovoljno, i da treba da se posvetim i dizajniranju, i zaista, posle prve 2 knjige o dizajnu koje sam pročitao, moji sajtovi postali su 10 puta bolji nego pre.
                     </p>
-                    <Image alt='' src={s} className=' w-full aspect-square md:aspect-auto bg-red-200 object-cover object-center'></Image>
+                    <Image alt='' src={s} className='w-8/12 mx-auto  md:aspect-auto object-cover object-center rounded-lg'></Image>
                 </div>
             </div>
         </div >
