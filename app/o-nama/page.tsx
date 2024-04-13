@@ -3,7 +3,7 @@ import Heroa from '@/public/svgs/hero.svg'
 import Image from 'next/image'
 import Brojevi from './components/Brojevi'
 import Reordera from './components/Reordera'
-import s from '@/public/imgs/japanac.jpg'
+import s from '@/public/imgs/ONAMA.jpeg'
 
 function page() {
 

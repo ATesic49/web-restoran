@@ -10,9 +10,9 @@ import Kontent from './components/Kontent'
 function page() {
     return (
         <div className='md:p-16 p-8 mt-16 md:mt-8 gap-16 flex flex-col justify-center items-center w-full text-gray-900'>
-            <h1 className='text-center max-w-[10em] text-2xl md:text-6xl font-bold'>Šta sve nudi jedan WebRestoran?</h1>
+            <h1 className='text-center max-w-[10em] text-2xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-blue-400 to-pink-300 p-2 -m-2'>Šta sve nudi jedan WebRestoran?</h1>
             <Ispod />
-            <div className='grid md:grid-cols-4 gap-8 w-full items-start'>
+            <div className='grid  grid-cols-[repeat(4,_minmax(240px,_1fr))] gap-8 w-full overflow-auto items-start'>
                 <DeoGrida d={.2} h={'Responzivan Dizajn.'} p='Cak 71% interneta se odvija na dmobilnim telefonima.Nasi sajtovi su veoma prilagodjeni mobilnoj trafici.' img={phone} />
                 <DeoGrida
                     d={.4}
@@ -26,7 +26,7 @@ function page() {
                 <DeoGrida
                     d={.8}
                     h='Funkcionalan Deo sajta'
-                    p='Bar Kod meni, onlajn rezervacija stolova ... ' img={meni} />
+                    p='Barkod meni, onlajn rezervacija stolova ... ' img={meni} />
             </div>
             <div className='flex flex-col gap-16 w-full px-4'>
                 <Kontent img={phone} h='Besplatan sastanak' p={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ad mollitia aliquid consequuntur possimus natus quas voluptate quo vero, labore odio esse accusamus voluptatum delectus facere eligendi corrupti, explicabo facilis!'} />

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import oNama from '@/public/imgs/heroBg.jpeg'
 import image from '@/public/imgs/laptop.jpeg'
+import Link from 'next/link'
 function ONama() {
     return (
         <div className='flex justify-center gap-8 items-start p-8  md:p-16 flex-col'>
@@ -23,7 +24,7 @@ function ONama() {
                 <Image src={image} alt='' className='md:w-1/3 rounded-t-2xl  aspect-square  rounded'></Image>
 
             </div>
-            <button className='px-4 py-2 rounded-lg bg-gradient-to-t shadow-sm shadow-blue-600 from-blue-500 to-blue-400 mx-auto text-lg text-gray-50'>Više o nama</button>
+            <Link href={'/o-nama'} className='px-4 py-2 rounded-lg bg-gradient-to-t shadow-sm shadow-blue-600 from-blue-500 to-blue-400 mx-auto text-lg text-gray-50'>Više o nama</Link>
         </div>
     )
 }

@@ -1,9 +1,11 @@
+'use client'
 import Link from 'next/link'
 import React from 'react'
 
 function Footer() {
+
   return (
-    <div className='flex bg-gray-100 justify-between gap-4 items-center p-4 text-sm mt-auto'>
+    <div className={` flex bottom-0  w-full  bg-gray-100 justify-between gap-4 items-center p-4 text-sm mt-auto`}>
       <p className='text-gray-600 text-xs md:text-sm'>
         &copy; 2024. Sva prava zadržana.
       </p>
