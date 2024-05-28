@@ -77,12 +77,11 @@ export default Reordera
 
 const reorderItem = (svg: JSX.Element, natpis: string) => {
   return (
-    <div className='p-4 rounded-lg cursor-pointer duration-200 hover:bg-gray-100 hover:scale-95 bg-gray-50 w-full border flex flex-col gap-1 text-sm justify-center items-center'>
-
+    <div className='p-4 rounded-lg cursor-pointer duration-200 hover:bg-gray-900 hover:scale-95 bg-gray-950 w-full border flex flex-col gap-1 text-sm justify-center items-center'>
       <svg xmlns="http://www.w3.org/2000/svg" className="w-16 stroke-blue-300" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
         {svg}
       </svg>
-      <p>{natpis}</p>
+      <p className='text-gray-300'>{natpis}</p>
     </div>
   )
 }

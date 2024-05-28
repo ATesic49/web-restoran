@@ -4,8 +4,8 @@ function Kontent({ h, p, img }: { h: string, p: string, img: StaticImageData }) 
     return (
         <div className='grid justify-between md:grid-cols-2 items-center gap-4'>
             <div className='flex flex-col gap-4 items-center  '>
-                <h2 className='md:text-2xl text-xl md:-ml-2  md:mr-auto font-bold text-gray-800'>{h}</h2>
-                <p className='text-gray-600  md:text-base text-center md:text-left text-sm md:w-[35em]'>{p}</p>
+                <h2 className='md:text-2xl text-xl md:-ml-2  md:mr-auto font-bold text-gray-200'>{h}</h2>
+                <p className='text-gray-400  md:text-base text-center md:text-left text-sm md:w-[35em]'>{p}</p>
 
             </div>
             <div className='w-full h-full'>

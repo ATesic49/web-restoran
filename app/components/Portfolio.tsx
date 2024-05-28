@@ -5,13 +5,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 function Portfolio() {
     return (
-        <div className='flex justify-center gap-8 items-start p-8 md:p-16 flex-col'>
+        <div className='flex justify-center gap-8 bg-gray-950 items-start p-8 md:p-16 flex-col'>
 
-            <h2 className='md:text-6xl text-3xl text-gray-950 font-bold '>
+            <h2 className='md:text-6xl text-3xl text-gray-200 font-bold '>
                 Prortfolio
             </h2>
             <div className='flex items-center justify-between w-full'>
-                <p className='text-gray-500 text-sm md:text-lg max-w-[600px]'>Ovo ispred vas je jedan od naših prethodnih projekata koji služi da vam pokaže kako bi Vaš sajt mogao da izgleda u koliko odaberete saradnju sa nama :)</p>
+                <p className='text-gray-400 text-sm md:text-lg max-w-[600px]'>Ovo ispred vas je jedan od naših prethodnih projekata koji služi da vam pokaže kako bi Vaš sajt mogao da izgleda u koliko odaberete saradnju sa nama :)</p>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-3 items-center justify-center md:mt-8  '>
                 <div className=' md:w-32 flex aspect-square gap-2 md:gap-8 md:flex-col mx-auto row-start-2 md:row-start-auto    justify-between items-center'>
@@ -24,7 +24,7 @@ function Portfolio() {
                             <path d="M12 17v.01" />
                             <path d="M15 19l2 2l4 -4" />
                         </svg>
-                        <p className='text-xs text-center text-gray-400'>Responzivno za mobilne telefone</p>
+                        <p className='text-xs text-center text-gray-300'>Responzivno za mobilne telefone</p>
                     </div>
                     <div className='md:w-32 flex-col gap-2 aspect-square flex items-center justify-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-green-500' width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -35,7 +35,7 @@ function Portfolio() {
                             <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                         </svg>
 
-                        <p className='text-xs text-center text-gray-400'>Moderan i dobro promišljen dizajn</p>
+                        <p className='text-xs text-center text-gray-300'>Moderan i dobro promišljen dizajn</p>
                     </div>
                 </div>
                 <div className='w-full col-span-2 flex flex-col gap-2 justify-center items-center  relative'>
@@ -60,7 +60,7 @@ function Portfolio() {
                             <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
                             <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                         </svg>
-                        <p className='text-xs text-center text-gray-400'>Brzo učitavanje stranica</p>
+                        <p className='text-xs text-center text-gray-300'>Brzo učitavanje stranica</p>
                     </div>
                     <div className=' md:w-32 flex-col gap-2 aspect-square flex items-center justify-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-green-500' width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -68,7 +68,7 @@ function Portfolio() {
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                             <path d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3" />
                             \                        </svg>
-                        <p className='text-xs text-center text-gray-400'>Pozitivno iskstvo posetioca</p>
+                        <p className='text-xs text-center text-gray-300'>Pozitivno iskstvo posetioca</p>
                     </div>
                 </div>
 

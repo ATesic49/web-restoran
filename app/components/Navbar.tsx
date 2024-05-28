@@ -11,19 +11,19 @@ function Navbar() {
     const pathname = usePathname()
 
     return (
-        <div className=' flex justify-between fixed z-50 bg-gray-50  bg-opacity-90 md:bg-opacity-50 md:backdrop-blur-sm top-0 w-full left-0 items-center px-4 md:px-8 py-4'>
-            <Link href='/' className='bg-gradient-to-t from-blue-700 to-blue-300 italic font-bold bg-clip-text text-transparent p-1'>WebRestoran
+        <div className=' flex justify-between fixed z-50 bg-gray-950  bg-opacity-50 backdrop-blur-lg top-0 w-full left-0 items-center px-4 md:px-8 py-4'>
+            <Link href='/' className='bg-gradient-to-t from-gray-50 to-gray-200 italic font-bold bg-clip-text text-transparent  p-1'>NEXT LEVEL
 
             </Link>
-            <nav className='hidden md:flex text-gray-500 font-semibold text-lg justify-center items-center gap-8 '>
-                <Link href="/o-nama" className={`${pathname === '/o-nama' && 'text-gray-800'}  hover:text-gray-800 hover:underline underline-offset-8 duration-200`}>O nama</Link>
+            <nav className='hidden md:flex text-gray-200 font-semibold text-lg justify-center items-center gap-8 '>
+                <Link href="/o-nama" className={`${pathname === '/o-nama' && 'text-gray-100'}  hover:text-gray-100 hover:underline underline-offset-8 duration-200`}>O nama</Link>
                 <Link href="/usluge" className={` hover:underline underline-offset-8 
-                ${pathname === '/usluge' && 'text-gray-800'} duration-200  hover:text-gray-800
+                ${pathname === '/usluge' && 'text-gray-100'} duration-200  hover:text-gray-100
                 `}>Usluge</Link>
                 <Link href="/kontakt" className={` hover:underline 
-                ${pathname === '/kontakt' && 'text-gray-800'} hover:text-gray-800 duration-200
+                ${pathname === '/kontakt' && 'text-gray-100'} hover:text-gray-100 duration-200
                 underline-offset-8`}>Kontakt</Link>
-                <Link href={'/'} className='bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded-lg to-blue-400 flex justify-center items-center gap-2  text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-700  ml-8'>
+                <Link href={'/kontakt'} className='bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded-lg to-blue-400 flex justify-center items-center gap-2  text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-600  ml-8'>
                     <svg xmlns="http://www.w3.org/2000/svg" className='w-8 stroke-gray-100' viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z" />
@@ -39,7 +39,7 @@ function Navbar() {
             </nav>
             <div className='relative md:hidden '
                 onClick={() => setIsOpen(!isOpen)}>
-                <button className='shadow-blue-700 items-center justify-center px-4 py-2 bg-gradient-to-t from-blue-500 to-blue-300 rounded  flex gap-4 '
+                <button className='shadow-blue-500 to-blue-400 rounded  flex gap-4 '
 
                 >
 
@@ -58,10 +58,10 @@ function Navbar() {
 
 
                 >
-                    <Link href="/o-nama" className='text-gray-800 hover:underline underline-offset-8'>O nama</Link>
+                    <Link href="/o-nama" className='text-gray-100 hover:underline underline-offset-8'>O nama</Link>
                     <Link href="/usluge" className=' hover:underline underline-offset-8'>Usluge</Link>
                     <Link href="/o-nama" className=' hover:underline underline-offset-8'>Kontakt</Link>
-                    <Link href={'/'} className='-ml-1 bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded font-semibold to-blue-300 flex justify-center items-center   text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-700  '>
+                    <Link href={'/kontakt'} className='-ml-1 bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded font-semibold to-blue-400 flex justify-center items-center   text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-600  '>
                         <p className='text-[10px]'>Zakaži sastanak</p>
                         <svg xmlns="http://www.w3.org/2000/svg" className='w-10 stroke-gray-100' viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />

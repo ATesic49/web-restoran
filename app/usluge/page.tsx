@@ -9,14 +9,14 @@ import meni from '@/public/imgs/meni.jpeg'
 import Kontent from './components/Kontent'
 function page() {
     return (
-        <div className='md:p-16 p-8 mt-16 md:mt-8 gap-16 flex flex-col justify-center items-center w-full text-gray-900'>
+        <div className='md:p-16 p-8 md:pt-24   gap-16 flex flex-col justify-center items-center w-full text-gray-200 bg-gray-950'>
             <h1 className='text-center max-w-[10em] text-2xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-blue-400 to-pink-300 p-2 -m-2'>Šta sve nudi jedan WebRestoran?</h1>
             <Ispod />
-            <div className='grid  grid-cols-[repeat(4,_minmax(240px,_1fr))] gap-8 w-full overflow-auto items-start'>
+            <div className='grid  grid-cols-[repeat(4,_minmax(240px,_1fr))] gap-8 w-full  items-start overflow-hidden'>
                 <DeoGrida d={.2} h={'Responzivan Dizajn.'} p='Cak 71% interneta se odvija na dmobilnim telefonima.Nasi sajtovi su veoma prilagodjeni mobilnoj trafici.' img={phone} />
                 <DeoGrida
                     d={.4}
-                    h='Izrada sajta po zelji.'
+                    h='Izrada sajtova po zelji.'
                     p='U koliko vam se bilo sta na sajtu ne svidi, mi to promenimo.Ako zelite nesto da dodate, na raspolaganju smo.' img={lapTop} />
                 <DeoGrida
                     d={.6}

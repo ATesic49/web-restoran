@@ -8,9 +8,9 @@ import s from '@/public/imgs/ONAMA.jpeg'
 function page() {
 
     return (
-        <div className='m-8 flex flex-col gap-16'>
+        <div className='p-8 flex flex-col gap-16 bg-gray-950'>
             <div className='absolute top-0 left-1/2 -translate-y-1/2 -z-10 -translate-x-1/2 w-2/3 bg-blue-300 opacity-20 rounded-full aspect-square'></div>
-            <h1 className='mt-16 text-center max-w-[10em] mx-auto md:text-6xl text-3xl font-bold text-gray-900'>Sve što treba da znate o nama</h1>
+            <h1 className='mt-16 text-center max-w-[10em] mx-auto md:text-6xl text-3xl font-bold text-gray-200'>Sve što treba da znate o nama</h1>
             <Image src={Heroa} className='w-9/12 md:w-3/12  -my-16 mx-auto' alt='' />
             <div className='grid justify-center md:items-start items-center md:grid-cols-3 gap-8'>
                 <Brojevi br={1}
@@ -32,7 +32,7 @@ function page() {
 
             <div className='flex flex-col gap-8  justify-center items-center'>
                 <div className='flex  flex-col justify-center w-full overflow-hidden items-center gap-8 md:gap-16 mt-8'>
-                    <h2 className='text-gray-900 max-w-[90%] text-center mx-auto font-bold    text-3xl md:text-4xl '>
+                    <h2 className='text-gray-200 max-w-[90%] text-center mx-auto font-bold    text-3xl md:text-4xl '>
                         Programi koje koristimo
                     </h2>
                     <Reordera />
@@ -41,9 +41,9 @@ function page() {
 
             </div>
             <div className='flex flex-col gap-8 md:gap-16 md:p-8 justify-center items-center'>
-                <h2 className='text-4xl text-gray-800 font-bold'>Naša Priča</h2>
+                <h2 className='text-4xl text-gray-200 font-bold'>Naša Priča</h2>
                 <div className=' w-full grid md:grid-cols-2 gap-8'>
-                    <p className='w-full md:text-lg text-sm text-gray-600 '>Kada sam, krajem 2021.   počeo da pravim websajtove, samo sam gledao na to kao na pripremu za fakultet.
+                    <p className='w-full md:text-lg text-sm text-gray-400 '>Kada sam, krajem 2021.   počeo da pravim websajtove, samo sam gledao na to kao na pripremu za fakultet.
                         Posle nekog vremena, zavoleo sam proces, i odlučio da se posvetim tome.
                         <span className='h-2 block' />
                         Naravno, sajtovi koje sam na početku pravio bili su žestoka kurčina, ali sam nastavio da se trudim i sada sam tu gde jesam.
