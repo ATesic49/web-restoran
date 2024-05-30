@@ -1,12 +1,25 @@
 import Image from 'next/image'
 import React from 'react'
 import oNama from '@/public/imgs/heroBg.jpeg'
-import image from '@/public/imgs/laptop.jpeg'
+import image from '@/public/imgs/onamaPicaso.jpeg'
 import Link from 'next/link'
 function ONama() {
     return (
-        <div className='flex justify-center gap-8 items-start p-8 bg-gray-950 md:p-16 flex-col'>
-
+        <div className='flex justify-center relative md:gap-8 items-start p-8 bg-gray-950 md:p-16 flex-col z-10'>
+            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x divide-gray-800 -z-10 overflow-hidden'>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+            </div>
             <h2 className='text-3xl md:text-6xl text-gray-100 font-bold '>
                 O nama
             </h2>
@@ -29,7 +42,7 @@ function ONama() {
                 <Image src={image} alt='' className='md:w-1/3 rounded-t-2xl  aspect-square  rounded'></Image>
 
             </div>
-            <Link href={'/o-nama'} className='px-4 py-2 rounded-lg bg-gradient-to-t shadow-sm shadow-blue-600 from-blue-500 to-blue-400 mx-auto text-lg text-gray-50'>Više o nama</Link>
+            <Link href={'/o-nama'} className='px-4 mt-8 py-2 rounded-lg bg-gradient-to-t shadow-sm shadow-blue-600 from-blue-500 to-blue-400 mx-auto text-lg text-gray-50'>Više o nama</Link>
         </div>
     )
 }

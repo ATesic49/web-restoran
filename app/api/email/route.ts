@@ -14,7 +14,7 @@ export async function POST(request: Request) {
   var mailOptions = {
     from: email,
     to: "atesic7@gmail.com",
-    subject: `Pozdrav ${ime}`,
+    subject: `Stigla je poruka od ${ime} , ${email}`,
     text: poruka,
   };
   try {

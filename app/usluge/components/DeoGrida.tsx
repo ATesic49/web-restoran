@@ -14,7 +14,7 @@ function DeoGrida({ h, p, img, d }: { h: string, p: string, img: StaticImageData
                 y: 0
             }}
             transition={{ delay: d }}
-            className=' justify-center h-full  p-4 rounded-lg flex flex-col gap-4 items-center md:items-start md:justify-start group md:min-w-0'>
+            className=' justify-start h-full p-4 rounded-lg flex flex-col gap-4 items-center md:items-start md:justify-start group md:min-w-0 '>
             <Image className='shadow-md shadow-blue-900 duration-200  group-hover:scale-105 w-4/5 rounded-lg aspect-square ' src={img} alt={h}></Image>
             <h3 className='text-gray-200 font-bold text-xl md:text-left text-center'>{h}</h3>
             <p className='text-sm md:text-start text-center text-gray-400'>{p} </p>

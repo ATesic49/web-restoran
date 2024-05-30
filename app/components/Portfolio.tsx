@@ -5,8 +5,21 @@ import Image from 'next/image'
 import Link from 'next/link'
 function Portfolio() {
     return (
-        <div className='flex justify-center gap-8 bg-gray-950 items-start p-8 md:p-16 flex-col'>
-
+        <div className='flex justify-center gap-8 bg-gray-950 items-start p-8 md:p-16 flex-col relative z-10'>
+            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x divide-gray-800 -z-10 overflow-hidden'>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+            </div>
             <h2 className='md:text-6xl text-3xl text-gray-200 font-bold '>
                 Prortfolio
             </h2>
@@ -39,7 +52,7 @@ function Portfolio() {
                     </div>
                 </div>
                 <div className='w-full col-span-2 flex flex-col gap-2 justify-center items-center  relative'>
-                    <Image className='object-contain border rounded-lg shadow-lg' src={portfolio} alt=''></Image>
+                    <Image className='object-contain border rounded-lg shadow-lg ' src={portfolio} alt=''></Image>
                 </div>
                 {/* <div className='w-full flex aspect-square bg-blue-200 gap-8 flex-col justify-between items-center'>
                     <div className='w-5/12 bg-red-200 aspect-square'></div>

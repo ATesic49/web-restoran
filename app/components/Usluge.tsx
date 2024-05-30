@@ -5,8 +5,22 @@ import Link from 'next/link'
 function Usluge() {
     return (
         <div
-            className='flex flex-col gap-8 p-8 md:p-16  bg-gray-950'
+            className='flex flex-col gap-8 p-8 md:p-16  bg-gray-950 relative z-10'
         >
+            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x divide-gray-800 -z-10 overflow-hidden'>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+            </div>
             <h2
                 className='text-3xl md:text-6xl font-bold text-center text-gray-200'
             >Šta mi nudimo?</h2>

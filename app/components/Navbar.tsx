@@ -43,7 +43,6 @@ function Navbar() {
 
                 >
 
-                    <p className='text-base text-gray-100 font-bold  '>Menu</p>
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-gray-100" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M4 6l16 0" />
@@ -51,7 +50,7 @@ function Navbar() {
                         <path d="M4 18l16 0" />
                     </svg>
                 </button>
-                <motion.div className='flex flex-col rounded-md justify-center items-start md:hidden bg-gray-50 bg-opacity-90x`  border top-[calc(100%_-_4px)] -z-10   p-4  absolute   rounded-t-none w-full -left-0 gap-4   overflow-hidden'
+                <motion.div className='flex flex-col rounded-md justify-center items-start md:hidden bg-gray-950  bg-opacity-75 backdrop-blur-lg  border top-[calc(100%_+_16px)] -z-10 p-4  absolute rounded-t-none  -right-4 gap-4 w-32  overflow-hidden'
                     initial={{ y: -100, opacity: 0 }}
                     animate={isOpen ? { y: 0, opacity: 1 } : { y: -100, opacity: 0 }}
                     transition={{ duration: 0.5, type: 'spring', ease: 'easeInOut', delay: 0.125 }}
@@ -59,9 +58,9 @@ function Navbar() {
 
                 >
                     <Link href="/o-nama" className='text-gray-100 hover:underline underline-offset-8'>O nama</Link>
-                    <Link href="/usluge" className=' hover:underline underline-offset-8'>Usluge</Link>
-                    <Link href="/o-nama" className=' hover:underline underline-offset-8'>Kontakt</Link>
-                    <Link href={'/kontakt'} className='-ml-1 bg-gradient-to-t text-xs from-blue-500 px-2 py-1 shadow-sm  rounded font-semibold to-blue-400 flex justify-center items-center   text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-600  '>
+                    <Link href="/usluge" className='text-gray-100 hover:underline underline-offset-8'>Usluge</Link>
+                    <Link href="/o-nama" className='text-gray-100 hover:underline underline-offset-8'>Kontakt</Link>
+                    <Link href={'/kontakt'} className='-ml-1 bg-gradient-to-t text-xs from-blue-600 px-2 py-1 shadow-sm  rounded font-semibold to-blue-500 flex justify-center items-center   text-gray-100 duration-200 hover:scale-95 focus:scale-90 shadow-blue-700  '>
                         <p className='text-[10px]'>Zakaži sastanak</p>
                         <svg xmlns="http://www.w3.org/2000/svg" className='w-10 stroke-gray-100' viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />

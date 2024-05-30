@@ -9,11 +9,25 @@ import meni from '@/public/imgs/meni.jpeg'
 import Kontent from './components/Kontent'
 function page() {
     return (
-        <div className='md:p-16 p-8 md:pt-24   gap-16 flex flex-col justify-center items-center w-full text-gray-200 bg-gray-950'>
-            <h1 className='text-center max-w-[10em] text-2xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-blue-400 to-pink-300 p-2 -m-2'>Šta sve nudi jedan WebRestoran?</h1>
+        <div className='md:p-16 p-8 pt-24 md:pt-24  gap-8  md:gap-16 flex flex-col justify-center items-center w-full text-gray-200 bg-gray-950 relative z-10'>
+            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x divide-gray-800 -z-10 overflow-hidden'>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+                <div className='w-full h-full'></div>
+            </div>
+            <h1 className='text-center max-w-[10em] text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-blue-400 to-pink-300 p-2 -m-2'>Šta nudi Next Level?</h1>
             <Ispod />
-            <div className='grid  grid-cols-[repeat(4,_minmax(240px,_1fr))] gap-8 w-full  items-start overflow-hidden'>
-                <DeoGrida d={.2} h={'Responzivan Dizajn.'} p='Cak 71% interneta se odvija na dmobilnim telefonima.Nasi sajtovi su veoma prilagodjeni mobilnoj trafici.' img={phone} />
+            <div className='grid grid-cols-[repeat(4,_minmax(240px,_1fr))] gap-8 w-full  items-start justify-start md:overflow-hidden md:overflow-x-hidden overflow-x-scroll overflow-y-hidden '>
+                <DeoGrida d={.2} h={'Responzivan Dizajn.'} p='Čak 71% interneta se odvija na mobilnim telefonima.Nasi sajtovi su veoma prilagodjeni mobilnoj trafici.' img={phone} />
                 <DeoGrida
                     d={.4}
                     h='Izrada sajtova po zelji.'

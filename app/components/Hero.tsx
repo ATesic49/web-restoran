@@ -6,7 +6,21 @@ import bgbg from '@/public/imgs/bggb.jpeg'
 import Link from 'next/link'
 function Hero() {
   return (
-    <div className='heroj flex bg-gray-950 flex-col md:flex-row gap-8  md:min-h-[100vh] justify-between items-center p-8  md:p-16 relative'>
+    <div className='heroj flex bg-gray-950 flex-col md:flex-row md:gap-8  md:min-h-[100vh] justify-between items-center p-8 pt-16 md:p-16 relative z-10'>
+      <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x divide-gray-800 -z-10 overflow-hidden'>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+        <div className='w-full h-full'></div>
+      </div>
 
       <div className='flex flex-col justify-center mt-8 items-start gap-8 '>
         <h1 className='text-gray-100 text-3xl md:text-6xl   md:max-w-[8em] font-bold '>Podigni svoj web sajt na viši nivo.</h1>
@@ -24,9 +38,9 @@ function Hero() {
           </svg>
           Zakaži Stastanak</Link>
       </div>
-      <div className='flex justify-center md:w-1/2  items-center'>
+      <div className='flex justify-center md:w-1/2 w-5/6 aspect-square  items-center'>
         {/* <Image priority className='md:w-5/6 w-2/3  ' src={svg} alt=''></Image> */}
-        <svg xmlns="http://www.w3.org/2000/svg" className=' fill-gray-100 ' version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 20 20" ><g><path d="M14.4 4.4 13 5.8l4.2 4.2-4.2 4.2 1.4 1.4L20 10zM5.6 4.4 0 10l5.6 5.6L7 14.2 2.8 10 7 5.8zM9.989 16.184l-1.972-.328 2-12.03 1.972.328z" fill="#ffffff" opacity="1" data-original="#ffffff"></path></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className=' fill-gray-100 ' version="1.1" x="0" y="0" viewBox="0 0 20 20" ><g><path d="M14.4 4.4 13 5.8l4.2 4.2-4.2 4.2 1.4 1.4L20 10zM5.6 4.4 0 10l5.6 5.6L7 14.2 2.8 10 7 5.8zM9.989 16.184l-1.972-.328 2-12.03 1.972.328z" fill="#ffffff" opacity="1" data-original="#ffffff"></path></g></svg>
       </div>
 
     </div>
