@@ -38,8 +38,9 @@ function Hero() {
           </svg>
           Zakaži Stastanak</Link>
       </div>
-      <div className='flex justify-center md:w-1/2 w-5/6 aspect-square  items-center'>
+      <div className='flex justify-center md:w-1/2 w-5/6 aspect-square relative items-center'>
         {/* <Image priority className='md:w-5/6 w-2/3  ' src={svg} alt=''></Image> */}
+        <svg xmlns="http://www.w3.org/2000/svg" className=' fill-gray-100 absolute blur-lg top-2 -left-8 opacity-20' version="1.1" x="0" y="0" viewBox="0 0 20 20" ><g><path d="M14.4 4.4 13 5.8l4.2 4.2-4.2 4.2 1.4 1.4L20 10zM5.6 4.4 0 10l5.6 5.6L7 14.2 2.8 10 7 5.8zM9.989 16.184l-1.972-.328 2-12.03 1.972.328z" fill="#ffffff" opacity="1" data-original="#ffffff"></path></g></svg>
         <svg xmlns="http://www.w3.org/2000/svg" className=' fill-gray-100 ' version="1.1" x="0" y="0" viewBox="0 0 20 20" ><g><path d="M14.4 4.4 13 5.8l4.2 4.2-4.2 4.2 1.4 1.4L20 10zM5.6 4.4 0 10l5.6 5.6L7 14.2 2.8 10 7 5.8zM9.989 16.184l-1.972-.328 2-12.03 1.972.328z" fill="#ffffff" opacity="1" data-original="#ffffff"></path></g></svg>
       </div>
 
