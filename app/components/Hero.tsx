@@ -7,7 +7,7 @@ import Link from 'next/link'
 function Hero() {
   return (
     <div className='heroj flex bg-gray-950 flex-col md:flex-row md:gap-8  md:min-h-[100vh] justify-between items-center p-8 pt-16 md:p-16 relative z-10'>
-      <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] md:divide-x-2 divide-x divide-gray-800 -z-10 overflow-hidden'>
+      <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x-2  divide-gray-800 -z-10 overflow-hidden'>
         <div className='w-full h-full'></div>
         <div className='w-full h-full'></div>
         <div className='w-full h-full'></div>

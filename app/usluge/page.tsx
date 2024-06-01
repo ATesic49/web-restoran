@@ -13,7 +13,7 @@ import Kontent from './components/Kontent'
 function page() {
     return (
         <div className='md:p-16 p-8 pt-24 md:pt-24  gap-8  md:gap-16 flex flex-col justify-center items-center w-full text-gray-200 bg-gray-950 relative z-10'>
-            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] md:divide-x-2  divide-x divide-gray-800 -z-10 overflow-hidden'>
+            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x-2   divide-gray-800 -z-10 overflow-hidden'>
                 <div className='w-full h-full'></div>
                 <div className='w-full h-full'></div>
                 <div className='w-full h-full'></div>
