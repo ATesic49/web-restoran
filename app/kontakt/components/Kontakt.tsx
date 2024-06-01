@@ -17,6 +17,7 @@ function Kontakt() {
 
                 setStatus('circ')
                 const res = await axios.post('/api/email', { ...emailState })
+                console.log(res)
                 if (res.data.status) {
                     setStatus(res.data.status)
                     setTimeout(() => { setStatus('') }, 2000)
