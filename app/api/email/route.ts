@@ -28,11 +28,10 @@ export async function POST(request: Request) {
           throw new Error(`error: ${error} , info:${info.response}`);
         } else {
           console.log("Email sent: " + info.response);
+          return Response.json({ status: "Sve je proslo kako treba" });
         }
       }
     );
-    console.log(mail);
-    return Response.json({ status: "Sve je proslo kako treba", mail: mail });
   } catch (e) {
     console.log(e);
     return Response.json({ status: "greska" });
