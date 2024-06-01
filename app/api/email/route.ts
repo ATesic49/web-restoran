@@ -32,6 +32,7 @@ export async function POST(request: Request) {
         }
       }
     );
+    throw new Error("nesto je pogresnooo");
   } catch (e) {
     console.log(e);
     return Response.json({ status: "greska" });
