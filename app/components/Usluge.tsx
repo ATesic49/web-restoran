@@ -27,7 +27,8 @@ function Usluge() {
             <div
                 className='flex gap-8 justify-start items-center'>
                 <p className='text-gray-400 text-sm md:text-xl font-bold text-center w-full'>
-                    Nudimo izradu websajta takvog da ce
+                    Nudimo izradu websajta takvog da
+                    će svako
 
                     poželeti da bude vaša mušterija.
                 </p>
