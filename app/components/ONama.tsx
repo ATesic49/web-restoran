@@ -33,7 +33,7 @@ function ONama() {
                     <br className='h-4 ' />
 
                     Nasa firma je trenutno u razvoju, odradjeno je svega nekoliko websajtova i do sada nismo imali primedbu i svi nasi klijenti su iz saradnje izasli <strong className='text-gray-300'>
-                        zadovoljni </strong> i sa podignutim kvalitetom svog posla
+                        zadovoljni </strong> i sa podignutim kvalitetom svog posla.
                     <br className='h-4 block bg-red w-2  ' />
                     <br className='h-4 block bg-red w-2  ' />
                     Ovim tekstom zelimo da iskazemo <strong className='text-gray-300'>
