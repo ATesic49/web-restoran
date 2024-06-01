@@ -18,7 +18,7 @@ export async function POST(request: Request) {
     text: poruka,
   };
   try {
-    const mail = transporter.sendMail(
+    const mail = await transporter.sendMail(
       mailOptions,
       function (error: any, info: any) {
         if (error) {
@@ -28,7 +28,8 @@ export async function POST(request: Request) {
         }
       }
     );
-    return Response.json({ status: "Sve je proslo kako treba" });
+
+    return Response.json({ status: "Sve je proslo kako treba", mail: mail });
   } catch (e) {
     console.log(e);
     return Response.json({ status: "greska" });
