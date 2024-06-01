@@ -33,7 +33,7 @@ function Kontakt() {
     }
     return (
         <div className='flex py-8 flex-col justify-center gap-8 items-center min-h-screen   relative bg-gray-950 text-gray-400 z-10 overflow-hidden pt-24'>
-            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x divide-gray-800 -z-10 overflow-hidden'>
+            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] md:divide-x-2 divide-x divide-gray-800 -z-10 overflow-hidden'>
                 <div className='w-full h-full'></div>
                 <div className='w-full h-full'></div>
                 <div className='w-full h-full'></div>

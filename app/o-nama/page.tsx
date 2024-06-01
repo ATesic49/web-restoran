@@ -9,7 +9,7 @@ function page() {
 
     return (
         <div className='p-8 flex flex-col gap-16 bg-gray-950 relative z-10'>
-            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x divide-gray-800 -z-10 overflow-hidden'>
+            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] md:divide-x-2 divide-x divide-gray-800 -z-10 overflow-hidden'>
                 <div className='w-full h-full'></div>
                 <div className='w-full h-full'></div>
                 <div className='w-full h-full'></div>

@@ -6,7 +6,7 @@ import Link from 'next/link'
 function Portfolio() {
     return (
         <div className='flex justify-center gap-8 bg-gray-950 items-start p-8 md:p-16 flex-col relative z-10'>
-            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] divide-x divide-gray-800 -z-10 overflow-hidden'>
+            <div className='absolute inset-0 grid grid-cols-[repeat(20,128px)] md:grid-cols-[repeat(20,256px)] md:divide-x-2 divide-x divide-gray-800 -z-10 overflow-hidden'>
                 <div className='w-full h-full'></div>
                 <div className='w-full h-full'></div>
                 <div className='w-full h-full'></div>
