@@ -21,10 +21,10 @@ function Portfolio() {
                 <div className='w-full h-full'></div>
             </div>
             <h2 className='md:text-6xl text-3xl text-gray-200 font-bold '>
-                Prortfolio
+                Portfolio
             </h2>
             <div className='flex items-center justify-between w-full'>
-                <p className='text-gray-400 text-sm md:text-lg max-w-[600px]'>Ovo ispred vas je jedan od naših prethodnih projekata koji služi da vam pokaže kako bi Vaš sajt mogao da izgleda u koliko odaberete saradnju sa nama :)</p>
+                <p className='text-gray-400 text-sm md:text-lg max-w-[600px]'>Ovo ispred vas je jedan od naših predhodnih projekata koji služi da Vam pokaže kako bi Vaš sajt mogao da izgleda u koliko odaberete saradnju sa nama :)</p>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-3 items-center justify-center md:mt-8  '>
                 <div className=' md:w-32 flex aspect-square gap-2 md:gap-8 md:flex-col mx-auto row-start-2 md:row-start-auto    justify-between items-center'>

@@ -27,10 +27,8 @@ function Usluge() {
             <div
                 className='flex gap-8 justify-start items-center'>
                 <p className='text-gray-400 text-sm md:text-xl font-bold text-center w-full'>
-                    Nudimo izradu websajta takvog da
-                    će svako
-
-                    poželeti da bude vaša mušterija.
+                    Nudimo izradu web sajta takvog da
+                    će svako poželeti da bude vaša mušterija.
                 </p>
 
 
@@ -58,7 +56,7 @@ function Usluge() {
                         <path d="M12 17v.01" />
                         <path d="M15 19l2 2l4 -4" />
                     </svg>
-                    <h3 className='text-sm  text-gray-200 text-center '>Responzivni Dizajn</h3>
+                    <h3 className='text-sm  text-gray-200 text-center '>Responzivan Dizajn</h3>
                 </Link>
                 <Link href={'/usluge/#ResponzivniDizajn'} className='flex gap-4 py-4 px-4 rounded-lg  flex-col border   items-center justify-center shadow-md duration-200 cursor-pointer focus:scale-95 bg-gray-900 hover:bg-gray-800 shadow-blue-900  '>
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-8 stroke-blue-500" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">

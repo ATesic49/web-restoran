@@ -35,12 +35,12 @@ function page() {
                 <Brojevi br={2}
                     naslov='Dizajn Sajtova'
                     text1='Takođe, treba napomenuti da smo jedni od retkih na tržištu koji se bave i dizajnom sajtova.'
-                    text2='Na taj način obezbeđujemo Vama sajt koji će da privlači kupce, a nama zadovoljne mušterije.'
+                    text2='Na taj način obezbeđujemo Vama sajt koji će privući kupce, a nama zadovoljne mušterije.'
                     delay={.75} />
                 <Brojevi br={3}
                     naslov='Garantujemo uspeh'
                     text1='Mislimo da je jako bitno da se naš klient oseća sigurno i da zna da je njegov sajt u dobrim rukama.'
-                    text2='U koliko vam se ne bude svideo sajt koji vam budemo pravili, ne naplacujemo ništa za njega.'
+                    text2='U koliko Vam se ne bude svideo sajt koji vam budemo pravili, ne naplacujemo ništa za njega.'
                     delay={1} />
             </div>
 
@@ -59,9 +59,9 @@ function page() {
                 <div className=' w-full grid md:grid-cols-2 gap-8'>
                     <p className='w-full md:text-lg text-sm text-gray-400 '>Kada smo, krajem 2021. počeli da pravimo websajtove, samo smo gledali na to kao hobi. Posle nekog vremena, zavoleli smo proces, i odlučili da se posvetimo tome.
                         <span className='h-4 block' />
-                        Naravno, sajtovi koje smo na početku pravili bili su poprilicno losi, ali smo nastavili da se trudimo i sada smo tu gde jesmo.
+                        Naravno, sajtovi koje smo na početku pravili bili su poprilično loši, ali smo nastavili da se trudimo i sada smo tu gde jesmo.
                         <span className='h-4 block' />
-                        Kako smo učili više i više, shvatili smo da programiranje samo po sebi nije dovoljno, i da treba da se posvetimo i dizajniranju, i zaista, posle prve 2 knjige o dizajnu koje smo pročitali, nasi sajtovi postali su 10 puta bolji nego pre.
+                        Kako smo učili više i više, shvatili smo da programiranje samo po sebi nije dovoljno, i da treba da se posvetimo i dizajniranju, i zaista, posle prve 2 knjige o dizajnu koje smo pročitali, naši sajtovi postali su 10 puta bolji nego ranije.
                     </p>
                     <Image alt='' src={s} className='w-8/12 mx-auto  md:aspect-auto object-cover object-center rounded-lg'></Image>
                 </div>

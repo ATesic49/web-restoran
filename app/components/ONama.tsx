@@ -28,16 +28,16 @@ function ONama() {
 
                     <br className='h-4 ' />
                     <br className='h-4 ' />
-                    Naš tim se trenutno sastoji od <strong className='text-gray-300'> dvoje ljudi</strong>, jedan je specijalizovan za izradu websajtova, dok je drugi zadužen za marketing firme.
+                    Naš tim se trenutno sastoji od <strong className='text-gray-300'> dvoje ljudi</strong>, jedan je specijalizovan za izradu web sajtova, dok je drugi zadužen za marketing firme.
                     <br className='h-4 ' />
                     <br className='h-4 ' />
 
-                    Naša firma je trenutno u razvoju, odrađeno je svega nekoliko websajtova i do sada nismo imali primedbu i svi nasi klijenti su iz saradnje izašli <strong className='text-gray-300'>
-                        zadovoljni </strong> i sa podignutim kvalitetom svog posla.
+                    Naša firma je trenutno u razvoju, odrađeno je svega nekoliko web sajtova.Do sada nismo imali primedbu i svi naši klijenti su iz saradnje izašli <strong className='text-gray-300'>
+                        zadovoljni </strong>  podignutim kvalitetom svog posla.
                     <br className='h-4 block bg-red w-2  ' />
                     <br className='h-4 block bg-red w-2  ' />
                     Ovim tekstom želimo da iskažemo <strong className='text-gray-300'>
-                        iskrenost </strong>  u radu i da Vam damo do znanja želju o radu i dobroj saradnji.
+                        iskrenost </strong>  u radu i da Vam damo do znanja želju o dobroj saradnji.
                 </p>
                 <Image src={image} alt='' className='md:w-1/3 rounded-t-2xl  aspect-square  rounded'></Image>
 

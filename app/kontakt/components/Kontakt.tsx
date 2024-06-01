@@ -54,8 +54,11 @@ function Kontakt() {
 
             <h1 className='md:text-4xl text-2xl w-5/6 text-center md:w-auto md:text-left text-gray-400 font-bold'>Pozovi nas, ili zakazi sastanak</h1>
             <div className={`-my-4 text-green-500 `}>
-                {status === 'circ' ? <CircularProgress /> : <>{ }</>}
-                {status === 'Molimo Vas popunite polja do kraja.' ? <div className='text-red-500'>{status}</div> : <>{status}</>}
+
+                {status === 'Molimo Vas popunite polja do kraja.' ? <div className='text-red-500'>{status}</div> : <>
+
+                    {status === 'circ' ? <CircularProgress /> : <>{status}</>}
+                </>}
             </div>
 
 

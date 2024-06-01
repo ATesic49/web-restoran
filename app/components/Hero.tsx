@@ -25,7 +25,7 @@ function Hero() {
       <div className='flex flex-col justify-center mt-8 items-start gap-8 '>
         <h1 className='text-gray-100 text-3xl md:text-6xl   md:max-w-[8em] font-bold '>Podigni svoj web sajt na viši nivo.</h1>
         <p className='text-gray-500  font-normal text-sm md:text-base md:max-w-[20em]'>Čak 98% najuspešnijih biznisa pripisuju veliki deo svoga uspeha izgradnji profesionalnog
-          websajta. </p>
+          web sajta. </p>
         <Link href='/kontakt' className='bg-gradient-to-t  text-sm from-blue-500 px-2 py-1 shadow-sm  rounded-lg to-blue-400 flex justify-center items-center gap-2  text-blue-50 duration-200 hover:scale-95 focus:scale-90 shadow-blue-600  '>
           <svg xmlns="http://www.w3.org/2000/svg" className='w-8 md:w-8 stroke-blue-50' width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
