@@ -20,21 +20,12 @@ export async function POST(request: Request) {
   };
   console.log("EMAIL OPCIJE RADE");
   try {
-    const mail = await transporter.sendMail(
-      mailOptions,
-      function (error: any, info: any) {
-        if (error) {
-          console.log("NEGDE JE DOSLO DO GRESKE");
-          throw new Error(`error: ${error} , info:${info.response}`);
-        } else {
-          console.log("Email sent: " + info.response);
-          return Response.json({ status: "Sve je proslo kako treba" });
-        }
-      }
-    );
-    throw new Error("nesto je pogresnooo");
-  } catch (e) {
-    console.log(e);
+    const info = await transporter.sendMail(mailOptions);
+    console.log("Email sent: " + info.response);
+    return Response.json({ status: "Sve je prošlo kako treba." });
+  } catch (e: any) {
+    console.log("Negde je doslo do greske");
+    console.error(e.message);
     return Response.json({ status: "greska" });
   }
 }
