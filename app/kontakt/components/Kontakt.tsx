@@ -11,23 +11,25 @@ function Kontakt() {
     })
     const [status, setStatus] = useState('')
     const handleSubmit = async () => {
+        if (emailState.ime.length < 5 || emailState.email.length < 12 || emailState.poruka.length < 25) return setStatus('Molimo Vas popunite polja do kraja.')
+        else {
+            try {
 
-        try {
-
-            setStatus('circ')
-            const res = await axios.post('/api/email', { ...emailState })
-            if (res.data.status) {
-                setStatus(res.data.status)
+                setStatus('circ')
+                const res = await axios.post('/api/email', { ...emailState })
+                if (res.data.status) {
+                    setStatus(res.data.status)
+                    setTimeout(() => { setStatus('') }, 2000)
+                } else {
+                    throw new Error('Negde je došlo do greške')
+                }
+            } catch (e: any) {
+                console.log(e)
+                setStatus(e.message)
                 setTimeout(() => { setStatus('') }, 2000)
-            } else {
-                throw new Error('Negde je došlo do greške')
+
+
             }
-        } catch (e: any) {
-            console.log(e)
-            setStatus(e.message)
-            setTimeout(() => { setStatus('') }, 2000)
-
-
         }
 
     }
@@ -52,7 +54,8 @@ function Kontakt() {
 
             <h1 className='md:text-4xl text-2xl w-5/6 text-center md:w-auto md:text-left text-gray-400 font-bold'>Pozovi nas, ili zakazi sastanak</h1>
             <div className={`-my-4 text-green-500 `}>
-                {status === 'circ' ? <CircularProgress /> : <>{status}</>}
+                {status === 'circ' ? <CircularProgress /> : <>{ }</>}
+                {status === 'Molimo Vas popunite polja do kraja.' ? <div className='text-red-500'>{status}</div> : <>{status}</>}
             </div>
 
 
@@ -109,15 +112,6 @@ function Kontakt() {
                 </div>
                 <div className='px-4 col-span-2 cursor-pointer py-2 rounded  ml-auto text-gray-800 text-sm w-fit md:-mt-4 bg-gray-50   ' onClick={handleSubmit}> Pošalji</div>
             </div>
-
-
-
-
-
-
-
-
-
 
             <p className='-my-4 text-gray-400'>ili</p>
             <Link href={'tel:+381644737375'} className='p-2 rounded flex justify-center border-gray-400 text-gray-300 items-center border-2 text-sm   px-4 py-2'>
