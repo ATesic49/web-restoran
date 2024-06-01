@@ -24,8 +24,8 @@ export async function POST(request: Request) {
       mailOptions,
       function (error: any, info: any) {
         if (error) {
-          console.log(error);
           console.log("NEGDE JE DOSLO DO GRESKE");
+          throw new Error(`error: ${error} , info:${info.response}`);
         } else {
           console.log("Email sent: " + info.response);
         }
