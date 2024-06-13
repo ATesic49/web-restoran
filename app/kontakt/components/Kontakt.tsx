@@ -14,7 +14,7 @@ function Kontakt() {
 		if (
 			emailState.ime.length < 5 ||
 			emailState.email.length < 12 ||
-			emailState.poruka.length < 15
+			emailState.poruka.length < 10
 		)
 			return setStatus("Molimo Vas popunite polja do kraja.");
 		else {
