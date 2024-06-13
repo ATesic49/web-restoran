@@ -12,7 +12,14 @@ export async function POST(request: Request) {
 		},
 	});
 
-	var mailOptions = {
+	let mailOptions = {
+		from: email,
+		to: "atesic7@gmail.com",
+		subject: `Stigla je poruka od ${ime} , ${email}`,
+		text: poruka,
+	};
+
+	let mailOptions2 = {
 		from: email,
 		to: "atesic7@gmail.com",
 		subject: `Stigla je poruka od ${ime} , ${email}`,
